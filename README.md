@@ -1,6 +1,6 @@
 # ISL
 
-This is the official pytorch implementation for the paper: *Instance Similarity Learning for Unsupervised Feature Representation*, which is accepted to ICCV2021. The code contains training and testing several network architecture (ResNet18, ResNet50 and AlexNet) on four datasets (SVHN, CIFAR10, CIFAR100 and ImageNet) using our proposed ISL method.
+This is the official pytorch implementation for the paper: [*Instance Similarity Learning for Unsupervised Feature Representation*](https://arxiv.org/abs/2108.02721), which is accepted to ICCV2021. The code contains training and testing several network architecture (ResNet18, ResNet50 and AlexNet) on four datasets (SVHN, CIFAR10, CIFAR100 and ImageNet) using our proposed ISL method.
 
 ## Quick Start
 
