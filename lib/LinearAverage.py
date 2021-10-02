@@ -154,7 +154,7 @@ def invalid_idx(idx, affinity):
     """
     invalid = (idx == affinity[0])
     for j in range(1, len(affinity)):
-        invalid |= (idx == affinity[1])
+        invalid |= (idx == affinity[j])
     return invalid
 
 

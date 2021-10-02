@@ -224,7 +224,7 @@ def train_backbone(epoch):
 
         # compute output
         feature = net(inputs)  # [batch, embedding_size]
-        output = lemniscate(feature, index)  # [batch, neg_num + 1], p_{i, i}
+        output = lemniscate(feature, index)  # [batch, num_data], p_{i, i}
         all_loss, inst_loss, aff_loss, hp_loss = criterion(output, index,
                                                            lemniscate.affinity_mat,
                                                            lemniscate.memory)
